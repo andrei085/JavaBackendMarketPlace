@@ -20,8 +20,6 @@ import java.util.Optional;
 @Service
 public class ProductService {
 
-    @Autowired
-    private UserRepository userRepository;
 
     @Autowired
     private ProductRepository productRepository;
